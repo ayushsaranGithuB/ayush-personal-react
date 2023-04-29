@@ -14,7 +14,15 @@ body {
     background-color: #F0EDE1;
 }
 
+.pageSection {
+    padding-left: 3vw;
+}
 
+.sectionPageintro {
+    padding: 20px;
+    padding-left: 3vw;
+    border-bottom: 5px dashed rgb(197, 198, 180);
+}
 
 
 /* TYPOGRAPHY ------------------------------- */
@@ -35,6 +43,24 @@ a:active {
     color: #4c9e9e;
 }
 
+h1 b {
+    font-size: calc(1em + 10vmin);
+    line-height: 0.8em;
+    font-weight: 900;
+
+    --x-offset: -0.0625em;
+    --y-offset: 0.0625em;
+    --stroke: 0.025em;
+    --background-color: white;
+    --stroke-color: rgb(197, 198, 180);
+
+    text-shadow:
+
+        var(--x-offset) var(--y-offset) 0px var(--background-color),
+
+        calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke)) 0px var(--stroke-color);
+
+}
 
 
 /* Navigation ------------------------------- */
@@ -211,6 +237,8 @@ input[type=checkbox] {
 .centerText {
     margin: 2em auto;
 }
+
+
 
 /* Footer Section ------------------------------ */
 

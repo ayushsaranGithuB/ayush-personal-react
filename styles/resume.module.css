@@ -1,14 +1,6 @@
 
 /* Resume Page [SECTION: Links] ------------------------------- */
-.pageSection {
-    padding-left: 3vw;
-}
 
-.sectionPageintro {
-    padding: 20px;
-    padding-left: 3vw;
-    border-bottom: 5px dashed rgb(197, 198, 180);
-}
 
 .resumeSection {
     display: flex;

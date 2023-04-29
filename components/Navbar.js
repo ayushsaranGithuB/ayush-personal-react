@@ -33,6 +33,9 @@ const Navbar = () => {
                     <a href="/cv">RESUME/CV</a>
                 </li>
                 <li>
+                    <a href="/sandbox">SANDBOX</a>
+                </li>
+                <li>
                     <a href="http://blog.ayushsaran.info">BLOG</a>
                 </li>
             </div>

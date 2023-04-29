@@ -1,0 +1,126 @@
+/* Sandbox ------------------------------- */
+
+.sandboxPage {
+    font-size: 1em;
+}
+
+.sandboxPage h1 {
+    font-size: 2em;
+}
+
+.sandboxPage .pageSection h1 {
+    margin: 4em 0 2em;
+    font-size: 1.5em;
+}
+
+.project {
+    border: 1px solid #dfdfcef1;
+    border-radius: 8px;
+    background-color: #f7f5f2;
+    padding: 1em 2em 3em;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+.project .info {
+    width: 50%;
+    margin-right: 20%;
+}
+
+.project p {}
+
+.project ul.techStack {
+    margin: 30px 0 0;
+    width: 20%;
+    background-color: #333;
+    color: #CCC;
+    font-family: monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 2em 3em;
+    border-radius: 6px;
+    line-height: 1.4em;
+}
+
+.project ul.techStack li {
+    list-style: none;
+}
+
+ul.techStack li h4 {
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+ul.techStack li a:link,
+ul.techStack li a:visited {
+    color: #4c9e9e;
+}
+
+
+.projectLink {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 0.6em 1em;
+    font-family: monospace;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    font-weight: normal;
+    color: var(--linkBlue);
+}
+
+.projectLink {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: var(--linkBlue);
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.projectLink:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.projectLink:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+}
+
+.projectLink:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+
+.projectLink:focus {
+    outline: 1px transparent;
+}
+
+
+.projectLink:-webkit-details-marker {
+    display: none;
+}

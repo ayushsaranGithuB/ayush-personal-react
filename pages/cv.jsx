@@ -12,19 +12,19 @@ export default function About() {
     <div className={styles.resumeBox}>
 
      {/* <!-- PAGE INTRO ---------------------------  --> */}
-    <section className={styles.sectionPageintro}>
+    <section className="sectionPageintro">
         <h2><i className="fa fa-file-text-o"></i> Resume / CV</h2>
     </section>
 
 
     {/* <!-- RESUME ---------------------------  --> */}
-        <div className={[styles.pageSection, styles.resumeSection].join(' ')}>
+        <div className={['pageSection', styles.resumeSection].join(' ')}>
             <div className={styles.resumeContainer}>
                 <img src="img/Resume.png" width="100%" height="auto" />
             </div>
             <h3 className="centerText">
                 <a href="AyushSaranResumeCV.pdf">
-                    <i className="fa fa-file-pdf-o"></i>
+                    <i className="fa fa-file-pdf-o"></i>&nbsp;
                     Download Resume/CV as PDF
                 </a>
             </h3>
