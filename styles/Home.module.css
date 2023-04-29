@@ -4,6 +4,13 @@
     padding: 40px;
 }
 
+@media (min-width: 768px) {
+
+.homePage{
+    padding: 20px;
+}
+}
+
 .sectionPageintro {
     padding: 20px;
     padding-left: 3vw;

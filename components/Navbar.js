@@ -5,7 +5,7 @@ const Navbar = () => {
             /* <!-- LOGO --> */
         }
 
-        <div className="logo"><img src='img/logo_round_196.png' /></div>
+        <div className="logo"><a href="/"><img src='img/logo_round_196.png' /></a></div>
 
         {
             /* <!-- NAVIGATION MENU --> */

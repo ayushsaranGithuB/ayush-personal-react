@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F0EDE1;
+    min-width: 600px;
 }
 
 .pageSection {
@@ -167,6 +168,11 @@ input[type=checkbox] {
 /* APPLYING MEDIA QUERIES */
 
 @media (max-width: 768px) {
+
+    .navbar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .menu {
 
