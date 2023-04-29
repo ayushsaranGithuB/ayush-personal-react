@@ -1,0 +1,48 @@
+
+/* Resume Page [SECTION: Links] ------------------------------- */
+.pageSection {
+    padding-left: 3vw;
+}
+
+.sectionPageintro {
+    padding: 20px;
+    padding-left: 3vw;
+    border-bottom: 5px dashed rgb(197, 198, 180);
+}
+
+.resumeSection {
+    display: flex;
+    margin-top: 5em;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.resumeContainer {
+    background-color: #CCC;
+    padding: 20px;
+    margin-right: 5em;
+}
+
+.resumeContainer img {
+    box-shadow: 8px 8px 10px #999;
+    max-width: 800px;
+}
+
+.resumeBox h2 {
+    font-size: 4em;
+    padding-bottom: 1vh;
+}
+
+.resumeSection h3 {
+    font-size: 2em;
+    padding-bottom: 3vh;
+    font-family: 'Roboto Slab', serif;
+}
+
+.resumeSection h3 a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.2em;
+    font-size: 1em;
+}
