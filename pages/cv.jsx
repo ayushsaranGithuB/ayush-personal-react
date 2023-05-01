@@ -20,7 +20,7 @@ export default function About() {
     {/* <!-- RESUME ---------------------------  --> */}
         <div className={['pageSection', styles.resumeSection].join(' ')}>
             <div className={styles.resumeContainer}>
-                <img src="img/Resume.png" width="100%" height="auto" />
+                <img src="img/Resume.png" width="800" height="auto" />
             </div>
             <h3 className="centerText">
                 <a href="AyushSaranResumeCV.pdf">
