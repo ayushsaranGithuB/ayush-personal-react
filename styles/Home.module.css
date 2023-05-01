@@ -7,7 +7,7 @@
 @media (min-width: 768px) {
 
 .homePage{
-    padding: 20px;
+    padding: 60px;
 }
 }
 
@@ -23,14 +23,14 @@
 }
 
 .homePage h1 {
-    font-size: 8em;
+    font-size: 6em;
     padding-bottom: 0.6em;
     margin: 0.3em 0 0 0;
 }
 
 
 .homePage h1 b {
-    font-size: calc(1em + 10vmin);
+    font-size: calc(1em + 8vmin);
     line-height: 0.8em;
     font-weight: 900;
 
@@ -55,10 +55,17 @@
 
 .homePage h3 {
     font-size: 2em;
-    padding-bottom: 3vh;
+    padding-bottom: 5px;
     font-family: 'Roboto Slab', serif;
 }
 
+.homePage h3.loud {
+    padding-bottom: 3vh;
+}
+
+.homePage .work h3{
+    margin: 0 0 0 0;
+}
 
 .homePage h4 {
     font-size: 1.3em;
@@ -69,8 +76,20 @@
     background-color: #f9f8e3;
     padding: 1.2em;
     font-family: monospace;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    line-height: 60px;
+    padding: 2px 0 0 18px;
 }
 
+.homePage h4 svg{
+    height: 32px;
+    width: 32px;
+    opacity: .75;
+    padding-right: 10px;
+    position: relative;
+    top: 8px;
+}
 
 .homePage p {
     font-size: 20px;
@@ -80,6 +99,8 @@
     color: #444;
     font-style: normal;
     text-align: justify;
+    margin: 0;
+    padding: 0;
 }
 
 /* Home Page [SECTION: Links] ------------------------------- */
