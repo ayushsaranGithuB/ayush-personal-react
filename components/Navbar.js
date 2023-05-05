@@ -33,10 +33,10 @@ const Navbar = () => {
                     <a href="/cv">RESUME/CV</a>
                 </li>
                 <li>
-                    <a href="/sandbox">SANDBOX</a>
+                    <a href="https://sandbox.ayushsaran.info">SANDBOX</a>
                 </li>
                 <li>
-                    <a href="http://blog.ayushsaran.info">BLOG</a>
+                    <a href="https://blog.ayushsaran.info">BLOG</a>
                 </li>
             </div>
 
