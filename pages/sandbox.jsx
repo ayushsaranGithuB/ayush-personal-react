@@ -14,7 +14,8 @@ const SandBox = () => {
 		<h1>Development<br /><b>Sandbox</b></h1>
 	</section>
 	<section class="pageSection">
-		<h1>Some recent Web Development Projects</h1>
+		<h1>This page has moved...</h1>
+		<h2>See: https://sandbox.ayushsaran.info/</h2>
         
 		<div class="project">
 			<div class="info">
