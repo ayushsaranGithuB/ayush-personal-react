@@ -8,6 +8,7 @@ export default function Document() {
       <Head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" />        
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <script src='/admin.js'></script>
       </Head>
       <body>
         <Navbar />
