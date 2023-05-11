@@ -132,9 +132,9 @@ section.homeHero{
         color: #fff;
         margin: 1em auto;    
         width: 100vw;
-        background: url('/img/wave-2.svg') no-repeat 0 0;
-        background-size: cover;
-        padding: 8em 0;
+        background: url('/img/wave-2.svg') no-repeat center top;
+        background-size:auto  100%;
+        padding: 4em 0 5em;
         max-width: 100%;
     }
 
@@ -144,6 +144,8 @@ section.homeHero{
         text-align: center;
         font-weight: 500;
         line-height: 1.6em;
+        max-width: 70ch;
+        font-size: 24px;
     }
 
 
@@ -164,10 +166,12 @@ section.homeHero{
         background-size:contain; ;
         width: 200px;
         text-align: center;
-        line-height: 62px;
-        font-size: 20px;
+        line-height: 65px;
+        font-size: 38px;
+        font-weight: normal;
         padding-bottom: 10px;
         margin: 0 auto 50px;
+        font-family: var(--font-alt);
     }
 
     .homeServices .service {
@@ -337,8 +341,8 @@ section.homeHero{
 
     .homePage section.homeSoloEnt{
         min-width: 100%;  
-        padding-top: 4em;        
-        padding-bottom: 8em;
+        padding-top: 6em;        
+        padding-bottom: 7em;
         margin: 0 0 0 0;
     }
 
@@ -429,10 +433,15 @@ section.homeHero{
 
 @media (min-width: 680px) {
 
+  
     section.homeRecentProjects{ 
         max-width: 80%;
         padding-left: 10%;        
         padding-right: 10%;
+    }
+    section.homeServices{
+        padding-top: 0;
+        margin-top: -60px;
     }
 
 }
@@ -459,4 +468,21 @@ section.homeHero{
     top: -40px;
 
 }
+
+section.homeSoloEnt{
+    margin: 1em auto;  
+    padding: 8em 0 9em;
+}
+
+.homeSoloEnt h2{
+    margin: 0 auto;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+section.homeServices{
+    margin-top: -70px;
+}
+   
+
 }
