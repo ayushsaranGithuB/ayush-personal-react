@@ -1,100 +1,20 @@
-/* Home Page ------------------------------- */
+/* Home Page ----------- NEW -------------------- */
 
 .homePage{
-    padding: 40px;
+    --margin-left: clamp(-780px,calc(-100vw + 1000px)/2,600px);
+    --yellow-1:  #EBC023;
+    --font-alt: 'Just Another Hand';
 }
 
-@media (min-width: 768px) {
-
-.homePage{
-    padding: 60px;
-}
-}
-
-.sectionPageintro {
-    padding: 20px;
-    padding-left: 3vw;
-    border-bottom: 5px dashed rgb(197, 198, 180);
+.homePage section{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;    
 }
 
-.pageSection {
-
-    padding-left: 3vw;
-}
-
-.homePage h1 {
-    font-size: 6em;
-    padding-bottom: 0.6em;
-    margin: 0.3em 0 0 0;
-}
-
-
-.homePage h1 b {
-    font-size: calc(1em + 8vmin);
-    line-height: 0.8em;
-    font-weight: 900;
-
-    --x-offset: -0.0625em;
-    --y-offset: 0.0625em;
-    --stroke: 0.025em;
-    --background-color: white;
-    --stroke-color: rgb(197, 198, 180);
-
-    text-shadow:
-
-        var(--x-offset) var(--y-offset) 0px var(--background-color),
-
-        calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke)) 0px var(--stroke-color);
-
-}
-
-.homePage h2 {
-    font-size: 4em;
-    padding-bottom: 1vh;
-}
-
-.homePage h3 {
-    font-size: 2em;
-    padding-bottom: 5px;
-    font-family: 'Roboto Slab', serif;
-}
-
-.homePage h3.loud {
-    padding-bottom: 3vh;
-}
-
-.homePage .work h3{
-    margin: 0 0 0 0;
-}
-
-.homePage h4 {
-    font-size: 1.3em;
-    text-transform: u;
-    padding-bottom: 5vh;
-    border: 3px dashed #5a5b57;
-    border-radius: 4px;
-    background-color: #f9f8e3;
-    padding: 1.2em;
-    font-family: monospace;
-    margin-bottom: 60px;
-    margin-top: 10px;
-    line-height: 60px;
-    padding: 2px 0 0 18px;
-}
-
-.homePage h4 svg{
-    height: 32px;
-    width: 32px;
-    opacity: .75;
-    padding-right: 10px;
-    position: relative;
-    top: 8px;
-}
 
 .homePage p {
-    font-size: 20px;
-    line-height: 150%;
-    max-width: 70vw;
     color: #444;
     font-style: normal;
     text-align: justify;
@@ -102,38 +22,441 @@
     padding: 0;
 }
 
-/* Home Page [SECTION: Links] ------------------------------- */
-#homePageLinks {
-    padding: 10px 30px;
-    background-color: black;
-    color: #e2e5be;
+.homePage a {
+    color: var(--yellow-1);
 }
 
-.flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+section.homeHero{
+    max-width: 900px;
+    margin: min(7vw,80px) auto 0;
+    position: relative;
+    height: 40em;
+    border-bottom:10px dashed #C5C6B4 ;
+    margin-bottom: 2em;
+    padding: 0;
 }
 
-.flexitem {
-    background-color: #e2e5be;
-    margin: 1%;
+#homeHeroImg{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    width: 50%;
+}
+
+    .homeHero h1{
+        z-index: 2;
+        position: absolute;
+        right:0;
+        top:20%;
+        max-width: 60%;
+        text-align: right;
+        margin: 0; padding: 0;
+        font-size: min(16vw,132px);
+        line-height: 0.8em;
+        font-weight: 900;
+    
+        --stroke-color: rgb(197, 198, 180);
+    
+        text-shadow:3px 4px 0px #fff, 7px 10px 0px rgb(197, 198, 180);
+    
+    }
+
+
+
+    .homeHero h1 em{
+        position: absolute;
+        right: min(24vw,210px);
+        top: -5vw;
+        text-align: right;
+        margin: 0; padding: 0;
+       font-family: var(--font-alt);
+        font-size: 52px;
+        line-height: 60px;
+        font-style: normal;
+        text-shadow: none;
+        font-weight: normal;
+    }
+
+    .homeHero h1 em img{
+        position: absolute;
+        right: -30px;
+        top: 30px;
+    }
+
+    .homeHero h2{
+        position: absolute;
+        right:0;
+        max-width: 330px;
+        text-align: center;
+        top: clamp(200px,44vw,350px);
+        font-size: clamp(20px,4.5vw,35px);
+        font-weight: 500;
+        letter-spacing: -1px;
+        line-height: 40px;
+        z-index: 2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .homeHero h2 .highlight{
+        background: url('/img/highlight.svg') 0 40px no-repeat;
+        background-size: contain;
+        padding-bottom: 10px;
+    }
+
+
+    /* 2. INTRO ------------------------ */
+
+    .homeIntro{
+        display: flex;
+        margin: 4em auto;
+    }
+
+    .homeIntro h3{
+        width: 40%;
+        margin:0 5%;
+        font-size: 22px;
+    }
+
+    .homeIntro p{
+        width: 50%;        
+    font-size: 20px;
+    line-height: 150%;
+    max-width: 70vw;
+    }
+
+    /* 3. SOLO ENT ------------------------ */
+
+    section.homeSoloEnt{
+        color: #fff;
+        margin: 1em auto;    
+        width: 100vw;
+        background: url('/img/wave-2.svg') no-repeat 0 0;
+        background-size: cover;
+        padding: 8em 0;
+        max-width: 100%;
+    }
+
+    .homeSoloEnt h2{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 500;
+        line-height: 1.6em;
+    }
+
+
+    /* 4. SERVICES ------------------------ */
+
+    .homeServices{
+        color: #555;    display: flex;
+        flex-direction: column;
+        border-bottom:5px dashed #C5C6B4 ;
+        padding-bottom: 3em;
+        margin-bottom: 3em;
+    }
+
+    .homeServices h4{
+        
+        display: inline-block;
+        background: url('/img/button.png') 0 0 no-repeat transparent;
+        background-size:contain; ;
+        width: 200px;
+        text-align: center;
+        line-height: 62px;
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin: 0 0 50px 0;
+    }
+
+    .homeServices .service {
+        clear: left;
+        padding-top: 0px;
+        margin-bottom: 70px;
+    }
+
+    .homeServices .service p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #555;
+    }
+
+    .homeServices .service h5{
+        font-size: 24px;
+        line-height: 34px;
+        margin:0 0 6px 0;
+    }
+
+    .homeServices .service img{
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .homeServices .service .branding{
+        float: right;
+        width: 200px;
+        height: 260px;
+        margin: 0 0 0 40px;
+    }
+
+
+/* 4. CTA ------------------------ */
+
+    .homeCTA{
+        margin: 0 100px;
+        text-align: center;
+        max-width: 70vw;
+    }
+
+    .homeCTA p{        
+        text-align: center;
+        font-size: 20px;
+        line-height: 150%;    
+        margin-bottom: 20px;
+    }
+
+    .homeCTA small{
+        font-size: 13px;
+        line-height: 20px;
+        opacity: 0.6;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .homePage section.homeRecentProjects{     
+        display: none;   
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        background: url('/img/wave-rp.svg') no-repeat 0 0;
+        background-size: cover;
+        color: #fff;
+        padding: 100px 0px;    
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .homeRecentProjects h2{
+        background: url('/img/rp.svg') no-repeat 0px 0px;
+        background-size: contain;
+        padding:0;
+        margin:20px auto 100px;
+        display: inline-block;
+        text-indent: 60px;
+    }
+
+    .projectsAll{
+        display: flex;
+        max-width: 1000px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+       
+
+    .homeRecentProjects .project{
+        background-color: #2d2d2d;
+        max-width: 30%;
+        margin: 0 auto;
+        text-align: left;
+        font-family: 'Roboto Slab';
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .project h5{
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 18px;
+        margin: 30px 0 10px 0;
+    }
+
+    .project p{
+        color: #C5C6B4;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .projectThumb{
+        width: 100%;
+        aspect-ratio: 3/2;
+        background-color: #C5C6B4;
+        border-radius: 8px;
+    }
+
+    a.linkMore{
+        display: inline-block;
+        background: url(/img/button.png) 0 0 no-repeat transparent;
+        background-size:100%;
+        text-align: center;
+        line-height: 20px;
+        font-size: 28px;
+        padding: 9px 25px;
+        text-decoration: none;
+        margin: 10px 0 50px 0;
+        color:#2c250cb3;
+        font-family: var(--font-alt);
+    }
+
+        a.linkMore:hover {  
+            text-shadow: 0px 2px #ffffff3a; 
+            transform: translateY(-1px);     
+        }
+
+        a.linkMore:active {  
+            text-shadow: -1px -1px #e4e1d89b; 
+            transform: translateY(2px);     
+        }
+
+
+
+
+/* MEDIA QUERIES ------------ MOBILE --------------- */
+
+@media (max-width: 680px) {
+    
+    .homeHero h1{
+        font-size: 15vw;
+        top: 20vw;
+    }
+
+    .homePage section{
+        max-width: 90%;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .homePage section.homeSoloEnt{
+        min-width: 100%;  
+        padding-top: 4em;        
+        padding-bottom: 8em;
+        margin: 0 0 0 0;
+    }
+
+    .homePage section.homeHero{
+        width: 90%;
+        height: 60vw;
+        margin-left: 5%;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 50px;
+    }
+
+   
+
+    section.homeRecentProjects h2{
+        margin-top: 120px;
+    } 
+    
+    .projectsAll{
+        flex-direction: column;
+    }
+
+    .homePage section.homeServices{
+        margin-top: -40px;
+    }
+    
+    .homeRecentProjects .project{
+        max-width: 90%;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+
+    
+#homeHeroImg{
+    left: -10px;    
+    bottom: -40px;
+}
+
+    .homeRecentProjects h2{margin: 50px 0 50px 0;}
+
+    .homeHero{
+        max-height:400px ;
+    }
+
+    .homeHero h1 em{
+        right: 18vw;
+        top: -8vw;
+        font-size: 8vw;
+    }
+
+    .homeHero h2{        
+        top: 46vw;
+        font-size: 4vw;
+        line-height: 4.5vw;
+        max-width: min(60%,39vw);
+        right: 1vw;
+    }
+
+    .homeHero h2 .highlight{
+        background-position:0 30px;
+        background-size: contain;
+        padding-bottom: 10px;
+    }
+
+    .homeHero h1 em img {        
+        right: max(-4vw,-30px);
+        top: max(5vw,25px);
+        width: 3vw;
+    }
+
+    .homeIntro p{
+        font-size: 16px;
+        text-align: left;
+    
+    }
+    
+    .homeServices .service p{
+        font-size: 17px;
+        line-height: 25px;
+        color: #555;
+        text-align: left;
+    }
+
+}
+
+/* MEDIA QUERIES ------------ TABLET --------------- */
+
+@media (min-width: 680px) {
+
+    section.homeRecentProjects{ 
+        max-width: 80%;
+        padding-left: 10%;        
+        padding-right: 10%;
+    }
+
+}
+
+/* MEDIA QUERIES ------------ DESKTOP --------------- */
+
+@media (min-width: 900px) {
+
+    
+.homeHero h1 {
+    font-size: 152px;
 }
 
 
-/* Portfolio Page ------------------------------ */
-
-
-.flexGallery {
-    display: flex;
-    flex-wrap: wrap;
+.homeHero h2 {
+    right: 30px;
+    max-width: 340px;
+    top: 380px;
 }
 
-.flexGallery .flexitem {
-    min-width: 250px;
-    min-height: 250px;
-    margin: 20px;
+.homeHero h1 em {
+    position: absolute;
+    right: min(24vw,210px);
+    top: -40px;
+
 }
-
-
-
+}

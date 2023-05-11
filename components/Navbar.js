@@ -29,9 +29,9 @@ const Navbar = () => {
                 <li>
                     <a href="/">HOME</a>
                 </li>
-                <li>
+                {/* <li>
                     <a href="/cv">RESUME/CV</a>
-                </li>
+                </li> */}
                 <li>
                     <a href="https://sandbox.ayushsaran.info">SANDBOX</a>
                 </li>
