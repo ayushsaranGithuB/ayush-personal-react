@@ -55,7 +55,12 @@ export default function App() {
 
         <section className={styles.homeCTA}>
           <p>If your start-up or brand could use a usability review or redesign then please in touch and let's see if we are the right fit for each other...</p>
-          <p><a href="mailto:mail@ayushsaran.info">mail@ayushsaran.info</a></p>
+          <p><a className='button' href="mailto:mail@ayushsaran.info">
+            <svg width="28" height="27" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M28.1818 7.06726V3.33965H2.81818V7.06652L15.5 14.1079L28.1818 7.06726ZM28.1818 10.5658L15.5 17.6065L2.81818 10.5651V25.2441H28.1818V10.5658ZM2.81818 0.210449H28.1818C29.7383 0.210449 31 1.61144 31 3.33965V25.2441C31 26.9723 29.7383 28.3733 28.1818 28.3733H2.81818C1.26174 28.3733 0 26.9723 0 25.2441V3.33965C0 1.61144 1.26174 0.210449 2.81818 0.210449Z" fill="#444444"/>
+            </svg>
+              mail@ayushsaran.info</a>
+            </p>
           <small>
             Don't be shy, I love helping small brands, solo entrepreneurs, non-profits and even if its out of scope for me I may be able to direct you to the right experts or resources to help DIY it on your own :)
             </small>

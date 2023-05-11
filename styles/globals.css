@@ -37,6 +37,33 @@ a:active {
     color: #fff;
 }
 
+html>body a.button{        
+    display: inline-block;
+    background: url('/img/button2.png') 0 0 no-repeat transparent;
+    background-size:100% 100%; 
+    text-indent: 45px;
+    width: 200px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 38px;
+    font-weight: normal;
+    padding:2px 60px 10px 17px;
+    font-family: var(--font-alt);
+    color: #555;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 0px;
+    position: relative;
+}
+
+a.button svg{
+    position: absolute;
+    top:22px;
+    opacity: 0.85;
+    left: 20px;
+}
+
+
 h1 b {
     font-size: calc(1em + 10vmin);
     line-height: 0.8em;
