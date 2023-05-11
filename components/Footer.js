@@ -6,7 +6,7 @@ const Footer = () => {
                 <section class="socialIcons">
                     <a href="https://www.behance.net/ayushsaran"><img src='/img/btn-be.png' id="btn-be" /></a>
                     <a href="https://dribbble.com/AyushSaran"><img src='/img/sq-dribble.png' id="btn-drbl"/></a>
-                    <a href="https://www.linkedin.com/in/ayushsaran-designer/"><img src='/img/linkedIn.png'  id="btn-li" /></a>
+                    <a href="https://www.linkedin.com/in/ayushsaran-designer/"><img src='/img/linkedIn2.png'  id="btn-li" /></a>
                 </section>
                 
                 <section class="contact">
