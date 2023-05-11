@@ -1,5 +1,8 @@
 const Navbar = () => {
-    return (<nav className="navbar">
+    return (
+        
+        <div className="navbar-wrapper">
+        <nav className="navbar">
 
         {
             /* <!-- LOGO --> */
@@ -43,7 +46,7 @@ const Navbar = () => {
         </ul>
 
 
-    </nav>);
+    </nav></div>);
 }
  
 export default Navbar;
