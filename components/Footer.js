@@ -5,8 +5,8 @@ const Footer = () => {
             <div class="footerWrapper">
                 <section class="socialIcons">
                     <a href="/behance"><img src='/img/btn-be.png' id="btn-be" /></a>
-                    <a href="/behance"><img src='/img/Dribble.png' id="btn-drbl"/></a>
-                    <a href="/behance"><img src='/img/LinkedIn.png'  id="btn-li" /></a>
+                    <a href="/behance"><img src='/img/dribble.png' id="btn-drbl"/></a>
+                    <a href="/behance"><img src='/img/linkedIn.png'  id="btn-li" /></a>
                 </section>
                 
                 <section class="contact">
