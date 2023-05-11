@@ -20,12 +20,12 @@ export default function App() {
         </section>
 
         <section className={styles.homeIntro}>
-          <h3>I build simple systems that make complicated processes easier to use</h3>
-          <p className={styles.intro}>For the last 10 years I’ve run my own Indie lifestyle brand and now work with other Brands, Start-Ups and Solo entrepreneurs helping them navigate technology and bring fun joy and character back to their web presence and customer interactions.</p>
+          <h3>I build simple systems that make complex processes easier to use</h3>
+          <p className={styles.intro}>For the last 10 years I've run my own Indie lifestyle brand and now work with other Brands, Start-Ups and Entrepreneurs helping them navigate technology and bring their distinct personality to their web presence and customer interactions.</p>
         </section>
 
         <section className={styles.homeSoloEnt}>
-          <h2>I especially like working with solo entrepreneurs and finding creative solutions to challenges with limited budgets</h2>
+          <h2>I especially like working with solo entrepreneurs and finding creative solutions to challenges within limited budgets</h2>
         </section>
 
         <section className={styles.homeServices}>
@@ -35,20 +35,20 @@ export default function App() {
           <div className={styles.service}>
             <img src='/img/thumb-gd.png' />
             <h5>Graphic Design</h5>
-            <p>Endlessly generating AI art can be fruitless without the right prompts and the right models to train from.</p>
+            <p>From mockups to interactive prototypes. I can help communicate your ideas visually for maximum impact.</p>
           </div>
 
           <div className={styles.service}>
             <img src='/img/thumb-bd.png' className={styles.branding} />
             <h5>Branding</h5>
-            <p>Hire a Human to give your brand the voice and emotional connect that’s unique to your story.</p>
-            <p>It tends to go missing over time as organizations evolve and a usability review can help correct the  messaging and convert customers from 'users' into 'fans'.</p>
+            <p>Give your brand the personality and voice that's unique to your story and build a memorable connection with customers.</p>
+            
           </div>
 
           <div className={styles.service}>
             <img src='/img/thumb-ts.png' />
-            <h5>Tech Stacks</h5>
-            <p>Help lowering your overheads and monthly subscription costs by avoiding unnecessary services and prefering open-source alternatives when available.</p>
+            <h5>Tech Consulting</h5>
+            <p>Help untangling bloated legacy systems and switching to best-in-class open-source and DIY alternatives instead.</p>
           </div>
 
         </section>
@@ -57,7 +57,7 @@ export default function App() {
           <p>If your start-up or brand could use a usability review or redesign then please in touch and let's see if we are the right fit for each other...</p>
           <p><a href="mailto:mail@ayushsaran.info">mail@ayushsaran.info</a></p>
           <small>
-            Don't be shy, I love helping small brands, solo entrepreneurs, non-profits and even if its out of scope for me I may be able to direct you to the right resources to Do-It-Yourself but not get burned :)
+            Don't be shy, I love helping small brands, solo entrepreneurs, non-profits and even if its out of scope for me I may be able to direct you to the right experts or resources to help DIY it on your own :)
             </small>
           
         </section>
