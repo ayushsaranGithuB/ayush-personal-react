@@ -3,7 +3,7 @@
 /* CSS VAriables  */
 
 :root {
-    --linkBlue: #4c9e9e;
+    --linkBlue: #ebac25;
     --orange: #ebac25;   
      --yellow-1:  #EBC023;
      --font-alt: 'Just Another Hand';
@@ -155,7 +155,7 @@ nav a {
 
 .menu li:hover {
 
-    background-color: #4c9e9e;
+    background-color: var(--orange);
 
     border-radius: 5px;
 
@@ -315,6 +315,7 @@ footer .socialIcons{
 
 footer .socialIcons img{
     width: clamp(32px,3vw,48px);
+    transition: 1s ease;
 }
 
 footer .contact{
@@ -335,6 +336,20 @@ footer .contact a{
     opacity: .6;
     display: inline-block;
     margin-right: 2vw;
+    transition: 1s ease;
+}
+
+.socialIcons a:hover{
+    opacity: 0.9;
+    transform: translateY(-5px);
+}
+
+.socialIcons a img{
+    box-shadow: none;
+}
+
+.socialIcons a:hover img{
+    box-shadow: 8px 11px 1px 0px #333;
 }
 
 
