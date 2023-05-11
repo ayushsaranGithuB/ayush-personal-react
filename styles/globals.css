@@ -198,6 +198,9 @@ input[type=checkbox] {
 
         z-index: 9;
 
+        
+        min-width: 450px;
+
     }
 
     .menu li {
