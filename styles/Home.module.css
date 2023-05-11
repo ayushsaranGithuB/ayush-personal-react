@@ -162,7 +162,7 @@ section.homeHero{
     .homeServices h4{
         
         display: inline-block;
-        background: url('/img/button.png') 0 0 no-repeat transparent;
+        background: url('/img/button2.png') 0 0 no-repeat transparent;
         background-size:contain; ;
         width: 200px;
         text-align: center;
@@ -299,7 +299,7 @@ section.homeHero{
 
     a.linkMore{
         display: inline-block;
-        background: url(/img/button.png) 0 0 no-repeat transparent;
+        background: url(/img/button2.png) 0 0 no-repeat transparent;
         background-size:100%;
         text-align: center;
         line-height: 20px;
